@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+Change	alej_supl/classes.py	/^class Change:$/;"	c
+Connection	alej_supl/classes.py	/^class Connection:$/;"	c
+Error	alej_supl/classes.py	/^class Error(Exception):$/;"	c
+Lesson	alej_supl/classes.py	/^class Lesson():$/;"	c
+NoChangesFoundError	alej_supl/classes.py	/^class NoChangesFoundError(Error):$/;"	c
+PageNotFoundError	alej_supl/classes.py	/^class PageNotFoundError(Error):$/;"	c
+Timetable	alej_supl/classes.py	/^class Timetable:$/;"	c
+WrongDataError	alej_supl/classes.py	/^class WrongDataError(Error):$/;"	c
+__init__	alej_supl/classes.py	/^    def __init__(self, data):$/;"	m	class:Timetable
+__init__	alej_supl/classes.py	/^    def __init__(self, date):$/;"	m	class:Connection
+__init__	alej_supl/classes.py	/^    def __init__(self, lesson, subject, teacher, classroom, part):$/;"	m	class:Lesson
+__init__	alej_supl/classes.py	/^    def __init__(self, type_, **kwargs):$/;"	m	class:Change
+absence_to_change	alej_supl/classes.py	/^    def absence_to_change(self, tr):$/;"	m	class:Connection
+find_abs	alej_supl/functions.py	/^def find_abs(table, class_re):$/;"	f
+find_supl	alej_supl/functions.py	/^def find_supl(table, class_re):$/;"	f
+format	alej_supl/classes.py	/^    def format(self):$/;"	m	class:Change
+format_change	alej_supl/classes.py	/^    def format_change(self):$/;"	m	class:Change
+format_dismiss	alej_supl/classes.py	/^    def format_dismiss(self):$/;"	m	class:Change
+format_event	alej_supl/classes.py	/^    def format_event(self):$/;"	m	class:Change
+format_extra	alej_supl/classes.py	/^    def format_extra(self):$/;"	m	class:Change
+format_move_from	alej_supl/classes.py	/^    def format_move_from(self):$/;"	m	class:Change
+format_move_to	alej_supl/classes.py	/^    def format_move_to(self):$/;"	m	class:Change
+format_substitution	alej_supl/classes.py	/^    def format_substitution(self):$/;"	m	class:Change
+format_unification	alej_supl/classes.py	/^    def format_unification(self):$/;"	m	class:Change
+get_absence	alej_supl/classes.py	/^    def get_absence(self, class_code):$/;"	m	class:Connection
+get_changes	alej_supl/classes.py	/^    def get_changes(self, class_code):$/;"	m	class:Connection
+get_changes	alej_supl/functions.py	/^def get_changes(date, class_code):$/;"	f
+get_changes_and_print_out	alej_supl/functions.py	/^def get_changes_and_print_out(day, class_code):$/;"	f
+get_changes_text	alej_supl/functions.py	/^def get_changes_text(day, class_code):$/;"	f
+get_multiple_changes	alej_supl/functions.py	/^def get_multiple_changes(first_day, last_day, class_code):$/;"	f
+get_supplementation	alej_supl/classes.py	/^    def get_supplementation(self, class_code):$/;"	m	class:Connection
+main	alej_supl/__main__.py	/^def main():$/;"	f
+new_change	alej_supl/classes.py	/^    def new_change(self, **kwargs):$/;"	m	class:Change
+new_dismiss	alej_supl/classes.py	/^    def new_dismiss(self, **kwargs):$/;"	m	class:Change
+new_event	alej_supl/classes.py	/^    def new_event(self, **kwargs):$/;"	m	class:Change
+new_extra	alej_supl/classes.py	/^    def new_extra(self, **kwargs):$/;"	m	class:Change
+new_move_from	alej_supl/classes.py	/^    def new_move_from(self, **kwargs):$/;"	m	class:Change
+new_move_to	alej_supl/classes.py	/^    def new_move_to(self, **kwargs):$/;"	m	class:Change
+new_substitution	alej_supl/classes.py	/^    def new_substitution(self, **kwargs):$/;"	m	class:Change
+new_unification	alej_supl/classes.py	/^    def new_unification(self, **kwargs):$/;"	m	class:Change
+print_changes_per_day	alej_supl/functions.py	/^def print_changes_per_day(day, changes):$/;"	f
+supplementation_to_change	alej_supl/classes.py	/^    def supplementation_to_change(self, tr):$/;"	m	class:Connection
+tr_to_Change	alej_supl/functions.py	/^def tr_to_Change(tr):$/;"	f

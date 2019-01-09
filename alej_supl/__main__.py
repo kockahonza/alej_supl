@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import datetime
 import argparse
 from classes import Connection, PageNotFoundError
@@ -15,7 +13,7 @@ def main():
     parser.add_argument('-w', '--week', action='store_true',
                         help='Use if you want all changes for the next week.')
 
-    parser.set_defaults(class_code='O7.B')
+    parser.set_defaults(class_code='O8.B')
 
     args = parser.parse_args()
 
